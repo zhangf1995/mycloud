@@ -21,4 +21,5 @@ public class testController {
     public String mytest(){
         return restTemplate.getForObject("http://127.0.0.1:8001/mycloudTest/test1",String.class);
     }
+
 }
