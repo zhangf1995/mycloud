@@ -27,4 +27,9 @@ public class testController {
     public String myTest2(){
         return "测试-.-";
     }
+
+    @RequestMapping("/test3")
+    public String myTest3(){
+        return restTemplate.getForObject("http://127.0.0.1:8001/mycloudTest/test2/{name}",String.class,"张三");
+    }
 }
