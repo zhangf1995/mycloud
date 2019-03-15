@@ -9,5 +9,5 @@ eureka:
   client:
     register-with-eureka: false  #不能注册自己
     fetch-registry: false   #表示自己就是注册中心
-   service-url:
+    service-url:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
