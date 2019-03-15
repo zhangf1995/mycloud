@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="eureka-client-one" />
         <module name="mycloud-eureka-server" />
         <module name="mycloudapi" />
         <module name="mycloudtest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="eureka-client-one" target="1.8" />
       <module name="mycloud" target="1.8" />
       <module name="mycloud-eureka-server" target="1.8" />
       <module name="mycloudapi" target="1.8" />
