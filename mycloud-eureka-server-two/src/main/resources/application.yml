@@ -3,10 +3,10 @@ server:
   port: 9002
 eureka:
   instance:
-    hostname: eureka-server-two
+    hostname: serverTwo
   client:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-      defaultZone: http://eureka-server-one:9001/eureka/
+      defaultZone: http://localhost:9001/eureka/
 

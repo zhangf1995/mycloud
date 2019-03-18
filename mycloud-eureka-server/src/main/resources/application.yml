@@ -2,12 +2,9 @@ server:
   port: 9001
 eureka:
   instance:
-    hostname: eureka-server-one
-  server:
-    enable-self-preservation: false
-    eviction-interval-timer-in-ms: 5000
+    hostname: serverOne
   client:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-      defaultZone: http://eureka-server-two:9002/eureka/
+      defaultZone: http://localhost:9002/eureka/
