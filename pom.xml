@@ -16,6 +16,7 @@
         <module>mycloud-eureka-server</module>
         <module>eureka-client-one</module>
         <module>mycloud-eureka-server-two</module>
+        <module>eureka-client-two</module>
     </modules>
 
     <!--Spring Boot配置-->
