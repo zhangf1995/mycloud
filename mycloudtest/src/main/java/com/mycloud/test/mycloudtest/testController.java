@@ -19,7 +19,7 @@ public class testController {
 
     @RequestMapping("/test1")
     public String mytest(){
-        return restTemplate.getForObject("http://127.0.0.1:8001/mycloudTest/test1",String.class);
+        return restTemplate.getForObject("http://server/mycloudTest/test1",String.class);
     }
 
 
@@ -30,6 +30,6 @@ public class testController {
 
     @RequestMapping("/test3")
     public String myTest3(){
-        return restTemplate.getForObject("http://127.0.0.1:8001/mycloudTest/test2/{name}",String.class,"张三");
+        return restTemplate.getForObject("http://server/mycloudTest/test2/{name}",String.class,"张三");
     }
 }
