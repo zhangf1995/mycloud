@@ -28,8 +28,16 @@ public class testController {
         return "测试-.-";
     }
 
-    @RequestMapping("/test3")
+/*    @RequestMapping("/test3")
     public String myTest3(){
         return restTemplate.getForObject("http://server/mycloudTest/test2/{name}",String.class,"张三");
+    }*/
+
+    @Autowired
+    private testService testService;
+
+    @RequestMapping("/feignTest")
+    public String feignTest(){
+        return testService.myTest3("李四");
     }
 }
