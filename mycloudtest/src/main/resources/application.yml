@@ -1,2 +1,7 @@
 server:
   port: 8002
+eureka:
+  client:
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://serverOne:9001/eureka/
