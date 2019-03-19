@@ -22,8 +22,8 @@ public class testConfig {
         return new RestTemplate();
     }
 
-/*    @Bean
+    @Bean
     public IRule myRule(){
         return new RandomRule();
-    }*/
+    }
 }
