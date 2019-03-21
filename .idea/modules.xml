@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/mycloud.iml" filepath="$PROJECT_DIR$/mycloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/mycloud-eureka-server/mycloud-eureka-server.iml" filepath="$PROJECT_DIR$/mycloud-eureka-server/mycloud-eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/mycloud-eureka-server-two/mycloud-eureka-server-two.iml" filepath="$PROJECT_DIR$/mycloud-eureka-server-two/mycloud-eureka-server-two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mycloud-hystrix-dashboard/mycloud-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/mycloud-hystrix-dashboard/mycloud-hystrix-dashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/mycloudapi/mycloudapi.iml" filepath="$PROJECT_DIR$/mycloudapi/mycloudapi.iml" />
       <module fileurl="file://$PROJECT_DIR$/mycloudtest/mycloudtest.iml" filepath="$PROJECT_DIR$/mycloudtest/mycloudtest.iml" />
     </modules>

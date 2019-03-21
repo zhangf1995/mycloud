@@ -10,6 +10,7 @@
         <module name="eureka-client-two" />
         <module name="mycloud-eureka-server" />
         <module name="mycloud-eureka-server-two" />
+        <module name="mycloud-hystrix-dashboard" />
         <module name="mycloudapi" />
         <module name="mycloudtest" />
       </profile>
@@ -20,6 +21,7 @@
       <module name="mycloud" target="1.8" />
       <module name="mycloud-eureka-server" target="1.8" />
       <module name="mycloud-eureka-server-two" target="1.8" />
+      <module name="mycloud-hystrix-dashboard" target="1.8" />
       <module name="mycloudapi" target="1.8" />
       <module name="mycloudtest" target="1.8" />
     </bytecodeTargetLevel>
